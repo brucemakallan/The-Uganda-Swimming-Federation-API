@@ -11,6 +11,3 @@ script:
   - npm i
   - npm install coveralls
   - npm test
-env:
-  - SHA1=abc123abc
-  - TOKEN=abc123abcxyz
