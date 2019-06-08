@@ -1,0 +1,821 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      getAllProductsDispatch={[Function]}
+      products={
+        Array [
+          Object {
+            "__v": 0,
+            "_id": "5c9fdcf69c5e1a0d891d506e",
+            "array": Array [],
+            "body": "test",
+            "category": "test",
+            "dateCreated": "1553980662739",
+            "dateIn": "124231221",
+            "dateOut": "124231222",
+            "files": Array [
+              Object {
+                "title": "sample file",
+                "url": "https://iviidev.info/downloads/files/sample.pdf",
+              },
+            ],
+            "heading1": "test1",
+            "heading2": "test2",
+            "heading3": "test3",
+            "heading4": "test4",
+            "heading5": "test5",
+            "heading6": "test6",
+            "images": Array [
+              "https://iviidev.info/downloads/images/sample.jpg",
+            ],
+            "parent": "312313432223",
+          },
+        ]
+      }
+    >
+      <BrowserRouter>
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <NavBar
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            partners={null}
+          >
+            <nav
+              className="navbar navbar-expand-lg navbar-dark"
+              id="dashboard-nav"
+            >
+              <Link
+                className="navbar-brand"
+                replace={false}
+                to="/"
+              >
+                <a
+                  className="navbar-brand"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="logo"
+                    src="./usf-logo.jpg"
+                  />
+                  <span>
+                    UGANDA
+                    <br />
+                    SWIMMING
+                    <br />
+                    FEDERATION
+                  </span>
+                </a>
+              </Link>
+              <button
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                className="navbar-toggler"
+                data-target="#navbarSupportedContent"
+                data-toggle="collapse"
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                className="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul
+                  className="navbar-nav mr-auto ml-auto"
+                >
+                  <li
+                    className="nav-item"
+                  >
+                    <Link
+                      className="nav-link custom-nav-link btn--shockwave active"
+                      replace={false}
+                      to="/"
+                    >
+                      <a
+                        className="nav-link custom-nav-link btn--shockwave active"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Home
+                        <span
+                          className="sr-only"
+                        >
+                          (current)
+                        </span>
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="nav-item dropdown"
+                  >
+                    <Link
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      className="nav-link custom-nav-link dropdown-toggle"
+                      data-toggle="dropdown"
+                      id="navbarDropdown"
+                      replace={false}
+                      role="button"
+                      to="/"
+                    >
+                      <a
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        className="nav-link custom-nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        href="/"
+                        id="navbarDropdown"
+                        onClick={[Function]}
+                        role="button"
+                      >
+                        Disciplines
+                      </a>
+                    </Link>
+                    <div
+                      aria-labelledby="navbarDropdown"
+                      className="dropdown-menu"
+                    >
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Swimming
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Water Polo
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Masters
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Para-swimming
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Open-water Swimming
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  <li
+                    className="nav-item dropdown"
+                  >
+                    <Link
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      className="nav-link custom-nav-link dropdown-toggle"
+                      data-toggle="dropdown"
+                      id="navbarDropdown"
+                      replace={false}
+                      role="button"
+                      to="/"
+                    >
+                      <a
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        className="nav-link custom-nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        href="/"
+                        id="navbarDropdown"
+                        onClick={[Function]}
+                        role="button"
+                      >
+                        Results
+                      </a>
+                    </Link>
+                    <div
+                      aria-labelledby="navbarDropdown"
+                      className="dropdown-menu"
+                    >
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        key="2019"
+                        replace={false}
+                        to="/results/2019"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/results/2019"
+                          onClick={[Function]}
+                        >
+                          2019
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        key="2018"
+                        replace={false}
+                        to="/results/2018"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/results/2018"
+                          onClick={[Function]}
+                        >
+                          2018
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        key="2017"
+                        replace={false}
+                        to="/results/2017"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/results/2017"
+                          onClick={[Function]}
+                        >
+                          2017
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        key="2016"
+                        replace={false}
+                        to="/results/2016"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/results/2016"
+                          onClick={[Function]}
+                        >
+                          2016
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        key="2015"
+                        replace={false}
+                        to="/results/2015"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/results/2015"
+                          onClick={[Function]}
+                        >
+                          2015
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        key="2014"
+                        replace={false}
+                        to="/results/2014"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/results/2014"
+                          onClick={[Function]}
+                        >
+                          2014
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  <li
+                    className="nav-item"
+                  >
+                    <Link
+                      className="nav-link custom-nav-link btn--shockwave"
+                      replace={false}
+                      to="/"
+                    >
+                      <a
+                        className="nav-link custom-nav-link btn--shockwave"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Members
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="nav-item dropdown"
+                  >
+                    <Link
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      className="nav-link custom-nav-link dropdown-toggle"
+                      data-toggle="dropdown"
+                      id="navbarDropdown"
+                      replace={false}
+                      role="button"
+                      to="/"
+                    >
+                      <a
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        className="nav-link custom-nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        href="/"
+                        id="navbarDropdown"
+                        onClick={[Function]}
+                        role="button"
+                      >
+                        About
+                      </a>
+                    </Link>
+                    <div
+                      aria-labelledby="navbarDropdown"
+                      className="dropdown-menu"
+                    >
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          About USF
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          History of USF
+                        </a>
+                      </Link>
+                      <div
+                        className="dropdown-divider"
+                      />
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Executive Committee
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Secretariat
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Committees
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Constitution
+                        </a>
+                      </Link>
+                      <Link
+                        className="dropdown-item custom-nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="dropdown-item custom-nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Regulations
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  <li
+                    className="nav-item"
+                  >
+                    <Link
+                      className="nav-link custom-nav-link btn--shockwave"
+                      replace={false}
+                      to="/"
+                    >
+                      <a
+                        className="nav-link custom-nav-link btn--shockwave"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Contact
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </NavBar>
+          <ToastContainer
+            autoClose={5000}
+            bodyClassName={null}
+            className={null}
+            closeButton={
+              <CloseButton
+                ariaLabel="close"
+              />
+            }
+            closeOnClick={true}
+            draggable={true}
+            draggablePercent={80}
+            hideProgressBar={false}
+            newestOnTop={false}
+            pauseOnFocusLoss={true}
+            pauseOnHover={true}
+            position="top-right"
+            progressClassName={null}
+            progressStyle={null}
+            rtl={false}
+            style={null}
+            toastClassName={null}
+            transition={[Function]}
+          >
+            <div
+              className="Toastify"
+            />
+          </ToastContainer>
+          <Switch>
+            <Route
+              component={[Function]}
+              computedMatch={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+              exact={true}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              path="/"
+            >
+              <Connect(Home)
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+              >
+                <Home
+                  getAllProductsDispatch={[Function]}
+                  history={
+                    Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "createHref": [Function],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  match={
+                    Object {
+                      "isExact": true,
+                      "params": Object {},
+                      "path": "/",
+                      "url": "/",
+                    }
+                  }
+                  products={
+                    Array [
+                      Object {
+                        "__v": 0,
+                        "_id": "5c9fdcf69c5e1a0d891d506e",
+                        "array": Array [],
+                        "body": "test",
+                        "category": "test",
+                        "dateCreated": "1553980662739",
+                        "dateIn": "124231221",
+                        "dateOut": "124231222",
+                        "files": Array [
+                          Object {
+                            "title": "sample file",
+                            "url": "https://iviidev.info/downloads/files/sample.pdf",
+                          },
+                        ],
+                        "heading1": "test1",
+                        "heading2": "test2",
+                        "heading3": "test3",
+                        "heading4": "test4",
+                        "heading5": "test5",
+                        "heading6": "test6",
+                        "images": Array [
+                          "https://iviidev.info/downloads/images/sample.jpg",
+                        ],
+                        "parent": "312313432223",
+                      },
+                    ]
+                  }
+                >
+                  <Home
+                    about={Array []}
+                    affiliates={Array []}
+                    applicationProcedures={Array []}
+                    articles={Array []}
+                    calendars={Array []}
+                    canaZone3={Array []}
+                    carousel={
+                      Object {
+                        "captions": Array [],
+                        "imageUrls": Array [],
+                      }
+                    }
+                    events={
+                      Array [
+                        Object {
+                          "dateIn": 1559985876030,
+                        },
+                      ]
+                    }
+                  >
+                    <div
+                      className="mainContent"
+                    >
+                      <Connect(PageLoader)>
+                        <PageLoader
+                          dispatch={[Function]}
+                          showLoader={false}
+                        />
+                      </Connect(PageLoader)>
+                      <section
+                        id="banner"
+                      >
+                        <Carousel
+                          captions={Array []}
+                          id="main"
+                          imageUrls={Array []}
+                        >
+                          <div
+                            className="carousel slide"
+                            data-ride="carousel"
+                            id="imageCarousel-main"
+                          >
+                            <ol
+                              className="carousel-indicators"
+                            />
+                            <div
+                              className="carousel-inner"
+                            />
+                            <a
+                              className="carousel-control-prev nextPrevIcon"
+                              data-slide="prev"
+                              href="#imageCarousel-main"
+                              role="button"
+                            >
+                              <span
+                                aria-hidden="true"
+                                className="carousel-control-prev-icon"
+                              />
+                              <span
+                                className="sr-only"
+                              >
+                                Previous
+                              </span>
+                            </a>
+                            <a
+                              className="carousel-control-next nextPrevIcon"
+                              data-slide="next"
+                              href="#imageCarousel-main"
+                              role="button"
+                            >
+                              <span
+                                aria-hidden="true"
+                                className="carousel-control-next-icon"
+                              />
+                              <span
+                                className="sr-only"
+                              >
+                                Next
+                              </span>
+                            </a>
+                          </div>
+                        </Carousel>
+                      </section>
+                      <section
+                        className="articles large-padding responsive-flex"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./concrete.png)",
+                          }
+                        }
+                      >
+                        <span>
+                          <span
+                            aria-label="emogi"
+                            role="img"
+                          >
+                            🤓
+                          </span>
+                          Loading Articles ...
+                        </span>
+                      </section>
+                      <section
+                        className="footer dark"
+                      >
+                        <div
+                          className="section-padding text-center"
+                        >
+                          Currently Undergoing Upgrades
+                        </div>
+                      </section>
+                    </div>
+                  </Home>
+                </Home>
+              </Connect(Home)>
+            </Route>
+          </Switch>
+        </Router>
+      </BrowserRouter>
+    </App>
+  </Connect(App)>
+</Provider>
+`;

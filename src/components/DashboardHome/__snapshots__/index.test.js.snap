@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardHome should render correctly 1`] = `
+<DashboardHome>
+  <div>
+    <h1>
+      The USF Admin Dashboard
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae aliquam arcu. Sed neque massa, porttitor sed fermentum fringilla, gravida et est. In tortor mauris, viverra eu lectus sed, sodales fringilla libero. Aliquam aliquet lacus vel mauris accumsan, consectetur venenatis nibh cursus.
+    </p>
+  </div>
+</DashboardHome>
+`;
