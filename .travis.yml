@@ -10,5 +10,7 @@ script:
   - rm -rf package-lock.json node_modules 
   - npm i
   - npm install coveralls
-  - npm run lint
   - npm test
+env:
+  - SHA1=abc123abc
+  - TOKEN=abc123abcxyz
