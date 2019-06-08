@@ -8,7 +8,7 @@ const getAllArticles = (req, res) =>
 		{},
 		(err, results) => err
 			? res.status(500).send({message: err.message})
-			: res.status(200).send(results)
+			: res.status(200).send(results.reverse())
 	);
 
 const getSpecificArticle = (req, res) =>
