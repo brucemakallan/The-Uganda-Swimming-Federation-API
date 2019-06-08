@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brucemakallan/The-Uganda-Swimming-Federation-API.svg?branch=develop)](https://travis-ci.org/brucemakallan/The-Uganda-Swimming-Federation-API)
+
 # The Uganda Swimming Federation (USF) - API
 
 [www.ugandaswimming.org](http://www.ugandaswimming.org)
