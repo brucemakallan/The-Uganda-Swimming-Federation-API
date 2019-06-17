@@ -31,6 +31,6 @@ app.delete(`${PROTECTED_ENDPOINT_PREFIX}/articles/:id`, article.deleteArticle);
 app.post('/api/admin', admin.login);
 
 // Send Email
-app.post(`${PROTECTED_ENDPOINT_PREFIX}/email`, email.sendEmail);
+app.post('/api/email', email.sendEmail);
 
 module.exports = app;
