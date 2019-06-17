@@ -22,7 +22,7 @@ const sendEmail = (req, res) => {
 			} else {
 				if (sendNodeMail(emailModel.subject, htmlMessage)) {
 					res.status(201).send({
-						message: 'Email Send Successfully',
+						message: 'Email Sent Successfully',
 						email: emailModel,
 					});
 				} else {
