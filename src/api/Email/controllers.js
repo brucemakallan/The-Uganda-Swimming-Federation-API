@@ -20,8 +20,14 @@ const sendEmail = (req, res) => {
 			if (err) {
 				res.status(500).send({message: err.message});
 			} else {
-				sendNodeMail(emailModel.subject, htmlMessage);
-				res.status(201).send(emailModel);
+				if (sendNodeMail(emailModel.subject, htmlMessage)) {
+					res.status(201).send({
+						message: 'Email Send Successfully',
+						email: emailModel,
+					});
+				} else {
+					res.status(500).send({message: 'Could not send Email. Please retry'});
+				}
 			}
 		});
 	}

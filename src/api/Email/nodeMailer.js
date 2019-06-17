@@ -17,9 +17,12 @@ async function sendNodeMail(subject, html, to) {
 	};
 
 	transporter.sendMail(mailOptions, function (err, info) {
-		if(err)
-			return console.log(err);
-    return console.log(info);
+		if(err) {
+			console.log('NODE-MAILER ERROR: ', err);
+			return false;
+		}
+		console.log('NODE-MAILER SUCCESS:', info);
+		return true;
 	});
 };
 
