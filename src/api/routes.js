@@ -3,6 +3,7 @@ const cors = require('cors');
 const jwtMiddleware = require('express-jwt');
 const article = require('./Article/controllers');
 const admin = require('./Admin/controllers');
+const email = require('./Email/controllers');
 const { WELCOME_MESSAGE, PROTECTED_ENDPOINT_PREFIX } = require('./utils');
 const { verifyToken, jwtErrorHandler } = require('./jwt');
 
@@ -28,5 +29,8 @@ app.delete(`${PROTECTED_ENDPOINT_PREFIX}/articles/:id`, article.deleteArticle);
 
 // Admin Login
 app.post('/api/admin', admin.login);
+
+// Send Email
+app.post(`${PROTECTED_ENDPOINT_PREFIX}/email`, email.sendEmail);
 
 module.exports = app;
